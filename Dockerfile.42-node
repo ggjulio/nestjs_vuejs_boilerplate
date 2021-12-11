@@ -15,8 +15,7 @@ RUN set -eux; \
 		sed -i "s/\(^ZSH_THEME=\).*/\1$OH_MY_ZSH_THEME/" ~/.zshrc; \
 		npm install -g \
 			@nestjs/cli \
-			@vue/cli \
-			@stoplight/prism-cli;
+			@vue/cli
 
 WORKDIR /app
 
