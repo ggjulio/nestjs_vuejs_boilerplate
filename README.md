@@ -27,7 +27,7 @@ vue create .
 ```bash
 exit
 ```
-#### Then start everyting up:
+#### Then youre good to go :
 ```bash
 docker-compose up
 ```
