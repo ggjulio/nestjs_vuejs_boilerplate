@@ -1,9 +1,24 @@
-# nestjs_vuejs_boilerplate
+# Boilerplate: Single repo NestJS + VueJS
 
-nestjs and vuejs cli are installed in the docker image:
+## getting started
+
+#### Initialize backend folder:
 ```bash
-docker-compose exec backend zsh
+docker-compose run backend zsh
 ```
 ```bash
-docker-compose exec frontend zsh
+nest --help
+```
+#### Initialize frontend folder:
+
+```bash
+docker-compose run backend zsh
+```
+```bash
+vue --help
+```
+
+#### Then start everyting
+```bash
+docker-compose up --build
 ```
