@@ -1,4 +1,5 @@
 FROM node:16-alpine
+LABEL maintainer="Julio <juligonz@student.42.fr>"
 
 RUN apk add --no-cache curl zsh git emacs vim;
 
