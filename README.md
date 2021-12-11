@@ -13,16 +13,21 @@ docker-compose run --rm backend zsh
 ```bash
 nest new .
 ```
+```bash
+exit
+```
 #### Create frontend vuejs app:
 
 ```bash
 docker-compose run --rm backend zsh
 ```
 ```bash
-vue --help
+vue create .
 ```
-
-#### Then start everyting
+```bash
+exit
+```
+#### Then start everyting up:
 ```bash
 docker-compose up
 ```
