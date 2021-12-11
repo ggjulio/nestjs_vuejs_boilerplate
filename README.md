@@ -1,12 +1,12 @@
 # Boilerplate: Single repo NestJS + VueJS
 
-## getting started
+## Getting started
 
-#### Build the base image
+###### Build the base image
 ```bash
 docker-compose build
 ```
-#### Create backend Nestjs app :
+###### Create backend Nestjs app :
 ```bash
 docker-compose run --rm backend zsh
 ```
@@ -16,7 +16,7 @@ nest new .
 ```bash
 exit
 ```
-#### Create frontend vuejs app:
+###### Create frontend vuejs app:
 
 ```bash
 docker-compose run --rm backend zsh
@@ -27,7 +27,10 @@ vue create .
 ```bash
 exit
 ```
-#### Then youre good to go :
+###### Then youre good to go :
 ```bash
 docker-compose up
 ```
+### RTFM !
+- https://docs.nestjs.com/
+- https://vuejs.org/v2/guide/
