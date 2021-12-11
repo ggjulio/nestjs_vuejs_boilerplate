@@ -11,7 +11,7 @@ docker-compose build
 docker-compose run --rm backend zsh
 ```
 ```bash
-nest --help
+nest new .
 ```
 #### Create frontend vuejs app:
 
