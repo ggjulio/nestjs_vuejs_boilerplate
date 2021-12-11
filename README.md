@@ -2,14 +2,14 @@
 
 ## getting started
 
-#### Initialize backend folder:
+#### Create backend Nestjs app :
 ```bash
 docker-compose run backend zsh
 ```
 ```bash
 nest --help
 ```
-#### Initialize frontend folder:
+#### Create frontend vuejs app:
 
 ```bash
 docker-compose run backend zsh
