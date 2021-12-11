@@ -1,13 +1,7 @@
-documentation/
-
-#tmp
-request.http
 
 # compiled output
 /dist
 /node_modules
-dev.sqlite
-test.sqlite
 
 # Logs
 logs
