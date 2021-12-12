@@ -19,7 +19,7 @@ exit
 ###### Create frontend vuejs app:
 
 ```bash
-docker-compose run --rm backend zsh
+docker-compose run --rm frontend zsh
 ```
 ```bash
 vue create . --no-git # Answer yes to "generate project in current directory"
