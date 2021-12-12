@@ -22,7 +22,7 @@ exit
 docker-compose run --rm backend zsh
 ```
 ```bash
-vue create . --no-git
+vue create . --no-git # Answer yes to "generate project in current directory"
 ```
 ```bash
 exit
