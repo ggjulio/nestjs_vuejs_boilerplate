@@ -11,7 +11,7 @@ docker-compose build
 docker-compose run --rm backend zsh
 ```
 ```bash
-nest new .
+nest new . --skip-git
 ```
 ```bash
 exit
@@ -22,7 +22,7 @@ exit
 docker-compose run --rm backend zsh
 ```
 ```bash
-vue create .
+vue create . --no-git
 ```
 ```bash
 exit
